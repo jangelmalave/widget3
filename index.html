@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<meta charset="utf-8"/>
+<head>
+    <link rel="stylesheet" href="css/main.css">     
+    <title>Calculadora de Proyectos ORMIGGA</title>
+<head>
+<body>
+  
+<header>
+    <div class="Logo"><img src="ormigga-white.svg" alt="Logo ORMIGGA"></div>
+</header>
+<div class="gray"><h6>¿Quieres <strong>ahorrar comprando?</strong></h6></div>
+<div class="Title">
+    <h5>Calculadora Ormigga</h5>
+    <p>Calcula cuánto tiempo y dinero te podrías ahorrar Vs. lo que gastas hoy en tu proceso de compras</p>
+    <hr>
+</div>
+<section class="seleccion">
+    <div class="categoria">
+        <h1>Categoría</h1>
+          <div class="select">
+            <select name="cat" id="cat">
+              <option>Seleccione Categoría *</option>
+              <option value="1">Marketing</option>
+              <option value="2">Eventos</option>
+              <option value="3">Ferretería</option>
+            </select>
+          </div>
+    </div>
+    <form action="presupuesto">
+      <div class="textfield js-textfield">
+        <input class="textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="costo-pre">
+        <label class="textfield__label" for="costo">Presupuesto en $$</label>
+        <span class="textfield__error">El valor colocado debe ser solo un número</span>
+      </div>
+    </form>
+    
+    <div class="action">
+    <button class="button js-button button--accent" id="#action" type="button">Siguiente <img 
+src="1x/sharp_chevron_right_white_18dp.png"/></button>
+    </div>
+  </section>
+<div class="formulario" >
+  
+</div>
+<div class="resultado" >
+        <div class="demo-card-event card shadow--2dp">
+                <div class="card__title card--expand">
+                  <p><b>Resultado:</b><br>
+                    Gasto promedio 15h <br>
+                    Ahorro Ormigga Horas<br>
+                    Ahorro Ormigga $$<br>                    
+                  
+                  </p>
+                </div>
+                <div class="card__actions card--border">
+                  <a class="button button--colored js-button js-ripple-effect">
+                   Ir a Ormigga.com
+                  </a>
+                  <div class="layout-spacer"></div>
+                  <i class="material-icons"><img src="1x/sharp_chevron_right_white_18dp.png"/></i>
+                </div>
+              </div>
+  </div>
+
+<script src="/js/jquery-3.3.1.min.js"></script>
+<script src="/js/main.js"></script>
+
+</body>
+</html>
+
