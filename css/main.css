@@ -10,7 +10,7 @@
 }
 
 h1, h2, h3, h4, h5, h6{
-    font-family: "Montserrat", sans-serif !important;
+    font-family: "Montserrat", sans-serif ;
 }
 
 /* Header */
@@ -32,9 +32,69 @@ h1, h2, h3, h4, h5, h6{
     justify-content: flex-end;
       
 }
+.gray{
+  background-color: #E7E7E7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 50px;
+  color: #50575F;
+}
+.gray h6{
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  
+}
+.gray b{
+  font-weight: 600;
+}
+.Title{
+  color:  #50575F;
+  text-align: center;
+  margin-left: 32px;
+  margin-right: 32px;
+}
+.Title h5{
+  font-size: 19px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 1.2;
+  border:solid #32C0B1 2px;
+  
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+/*.Title h5::before {
+  content: "";
+  color: #32C0B1;
+  font-weight: 200;
+  font-size: 4rem;
+}
+.Title h5::after {
+  content: "]"  
+  color: #32C0B1;
+  font-weight: 200;
+  font-size: 4rem;
+}*/
+.Title b{
+  font-weight: 600;
+}
+.Title hr{
+  margin-right: 45px;
+  margin-left: 45px;
+}
 
-
-
+.seleccion{
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.seleccion h1{
+  font-size: 24px;
+  color: #45BCA0;
+}
 /* Reset Select */
 select {
   -webkit-appearance: none;
@@ -43,8 +103,7 @@ select {
   appearance: none;
   outline: 0;
   box-shadow: none;
-  border: 0 !important;
-  background: #2c3e50;
+  
   background-image: none;
 }
 /* Custom Select */
@@ -54,17 +113,23 @@ select {
   width: 20em;
   height: 3em;
   line-height: 3;
-  background: #2c3e50;
+  background: #fff;
   overflow: hidden;
-  border-radius: .25em;
+  border: solid 1px #20A093;
+  border-radius: 25px;
+  margin-bottom: 25px;
 }
 select {
   width: 100%;
-  height: 100%;
+  height: 37px;
   margin: 0;
+  border:0;
   padding: 0 0 0 .5em;
-  color: #fff;
+  color: #2c3e50;
+  background: #fff;
   cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
 }
 select::-ms-expand {
   display: none;
@@ -77,12 +142,13 @@ select::-ms-expand {
   right: 0;
   bottom: 0;
   padding: 0 1em;
-  background: #34495e;
+  background: #fff;
   pointer-events: none;
+  color: #50575F; 
 }
 /* Transition */
 .select:hover::after {
-  color: #f39c12;
+  color: #20A093;
 }
 .select::after {
   -webkit-transition: .25s all ease;
