@@ -91,7 +91,7 @@ function muestra(option) {
 // Operaciones matemáticas
 function gastoPromedio(){
     num1 = document.getElementById("costo-pre").value;
-    num2 = data[posicion].Ahorro + 1;
+    num2 = data[posicion].Ahorro +1.2;
     $('.resultado1').html("$ " +(num1 * num2) + " COP" )
     //document.getElementsByClassName("resultado1").innerHTML = num1 * num2;
 }
@@ -99,7 +99,7 @@ function ahorroOrmiggaD(){
     hora1 = data[posicion].Tiempo;
     dias = hora1 * 9;
     pdia='días';
-    if(dias >= 1)
+    if(dias === 1)
         pdia='día'
     $('.resultado2').html(dias + " " + pdia);
     //document.getElementsByClassName("resultado2").innerHTML = hora1 * 9;
