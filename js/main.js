@@ -12,7 +12,7 @@ data = [
 	{
 		"Categoría": "Material para punto de venta",
 		"Ahorro": 0.1,
-		"Tiempo": 1
+		"Tiempo":1
 	},
 	{
 		"Categoría": "BTL / Activaciones",
@@ -91,17 +91,25 @@ function muestra(option) {
 // Operaciones matemáticas
 function gastoPromedio(){
     num1 = document.getElementById("costo-pre").value;
-    num2 = data [posicion].Ahorro;
-    document.getElementsByClassName("resultado1").innerHTML = num1 * num2;
+    num2 = data[posicion].Ahorro + 1;
+    $('.resultado1').html("$ " +(num1 * num2) + " COP" )
+    //document.getElementsByClassName("resultado1").innerHTML = num1 * num2;
 }
 function ahorroOrmiggaD(){
-    hora1 = data [posicion].Tiempo;
-    document.getElementsByClassName("resultado2").innerHTML = hora1 * 9;
+    hora1 = data[posicion].Tiempo;
+    dias = hora1 * 9;
+    pdia='días';
+    if(dias >= 1)
+        pdia='día'
+    $('.resultado2').html(dias + " " + pdia);
+    //document.getElementsByClassName("resultado2").innerHTML = hora1 * 9;
     
 }
 function ahorroOrmiggaM(){
-    num3 = data [posicion].Ahorro;
-    document.getElementsByClassName("resultado3").innerHTML = num3 * num4;
+    num3 = document.getElementById("costo-pre").value;
+    num4 = data[posicion].Ahorro;
+    $('.resultado3').html("$ " + ( num3 * num4 ) +" COP" )
+    //document.getElementsByClassName("resultado3").innerHTML = num3 * num4;
     
 }
 
@@ -112,6 +120,5 @@ function resultado(){
 }
 
 $("#action2").on("click", function(){
-    //$(".resultado3").show("ahorroOrmigaM");
-    alert(data [posicion].Categoría)
+    resultado();
 });
