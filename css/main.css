@@ -283,6 +283,8 @@ button{
   font-size: 21px;
   font-weight:600;
   letter-spacing: 2px;
+  padding-right: 15px;
+  padding-left: 15px;
 
 }
 .resultado .card{
@@ -294,7 +296,7 @@ button{
   font-size: 21px;
   color: #32C0B1;
   font-weight: 600;
-  margin-top: 24px
+  margin-top: 24px;
   margin-bottom: 0px !important;
 }
 .resultado p{
