@@ -285,6 +285,17 @@ button{
   letter-spacing: 2px;
 
 }
+.resultado .card{
+  text-align: center;
+  margin-right: 32px;
+  margin-left: 32px;
+}
+.resultado h6{
+  font-size: 21px;
+  color: #32C0B1;
+  font-weight: 600;
+  margin-top: 24px
+}
 /* Footer */
 
 footer{
