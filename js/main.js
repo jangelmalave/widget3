@@ -82,8 +82,8 @@ data=[
 ];
 
 
-var posicion = 0;
-function muestra( option) {
+var posicion = 1;
+function muestra(option) {
     posicion = option;
 }
 // Operaciones matemáticas
@@ -106,11 +106,12 @@ function ahorroOrmiggaM(){
 
 function resultado(){
     gastoPromedio();
-    ahorroOrmiggaD ();
-    ahorroOrmiggaM ();
+    ahorroOrmiggaD();
+    ahorroOrmiggaM();
+    
 }
 
-$("#action2").click(function(event){
+$("#action2").click(function(){
     resultado();
-    alert(data[0].Categoría)
+    alert(data[1].Categoría)
   });
