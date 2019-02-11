@@ -87,10 +87,30 @@ function muestra( option) {
     posicion = option;
 }
 // Operaciones matemáticas
-var gastoPromedio = 
+function gastoPromedio(){
+    num1 = document.getElementById("costo-pre").value;
+    num2 = posicion;
+    document.getElementsByClassName("resultado1").innerHTML = num1 * num2;
+}
+function ahorroOrmiggaD(){
+    hora1 = posicion;
+    document.getElementsByClassName("resultado2").innerHTML = hora1 * 9;
+    
+}
+function ahorroOrmiggaM(){
+    num3 = document.getElementById("costo-pre").value;
+    num4 = posicion;
+    document.getElementsByClassName("resultado3").innerHTML = num3 * num4;
+    
+}
 
-
+function resultado(){
+    gastoPromedio();
+    ahorroOrmiggaD ();
+    ahorroOrmiggaM ();
+}
 
 $("#action2").click(function(event){
+    resultado();
     alert(data[0].Categoría)
   });
