@@ -23,22 +23,22 @@
           <div class="select">
             <select name="cat" id="cat" onchange="muestra( this.value)">
               <option>Seleccione Categoría *</option>
-              <option value="1">Merchandising</option>
-              <option value="2">Material promocional</option>
-              <option value="3">Material para punto de venta</option>
-              <option value="4">BTL / Activaciones</option>
-              <option value="5">Organización de Eventos</option>
-              <option value="6">Impresiones</option>
-              <option value="7">Avisos/publicidad exterior</option>
-              <option value="8">Agencias de publicidad / Digitales</option>
-              <option value="9">Locaciones / salones de eventos</option>
-              <option value="10">Catering</option>
-              <option value="11">Transporte</option>
-              <option value="12">Dotaciones</option>
-              <option value="13">Papelería/material de oficina</option>
-              <option value="14">Cartones y Empaques</option>
-              <option value="15">Embalajes</option>
-              <option value="16">Ferretería</option>
+              <option value="0">Merchandising</option>
+              <option value="1">Material promocional</option>
+              <option value="2">Material para punto de venta</option>
+              <option value="3">BTL / Activaciones</option>
+              <option value="4">Organización de Eventos</option>
+              <option value="5">Impresiones</option>
+              <option value="6">Avisos/publicidad exterior</option>
+              <option value="7">Agencias de publicidad / Digitales</option>
+              <option value="8">Locaciones / salones de eventos</option>
+              <option value="9">Catering</option>
+              <option value="10">Transporte</option>
+              <option value="11">Dotaciones</option>
+              <option value="12">Papelería/material de oficina</option>
+              <option value="13">Cartones y Empaques</option>
+              <option value="14">Embalajes</option>
+              <option value="15">Ferretería</option>
             </select>
           </div>
     </div>
@@ -50,12 +50,13 @@
         <span class="bar"></span>
         <label>Escribe tu presupuesto</label>
         <span class="textfield__error">El valor colocado debe ser un número</span>
-      </div>
+      </div>      
     </form>
-    
     <div class="action">
-    <button class="button" id="action2" type="button"  >Calcular</button>
-    </div>
+      <button class="button" id="action2" type="button" onclick="resultado()" >Calcular</button>
+      </div>
+    
+    
   </section>
 <div class="resultado" >
       <div class="header">

@@ -1,4 +1,4 @@
-data=[
+data = [
 	{
 		"Categoría": "Merchandising",
 		"Ahorro": 0.1,
@@ -82,24 +82,25 @@ data=[
 ];
 
 
-var posicion = 1;
+var posicion = muestra();
 function muestra(option) {
     posicion = option;
+
+
 }
 // Operaciones matemáticas
 function gastoPromedio(){
     num1 = document.getElementById("costo-pre").value;
-    num2 = posicion;
+    num2 = data [posicion].Ahorro;
     document.getElementsByClassName("resultado1").innerHTML = num1 * num2;
 }
 function ahorroOrmiggaD(){
-    hora1 = posicion;
+    hora1 = data [posicion].Tiempo;
     document.getElementsByClassName("resultado2").innerHTML = hora1 * 9;
     
 }
 function ahorroOrmiggaM(){
-    num3 = document.getElementById("costo-pre").value;
-    num4 = posicion;
+    num3 = data [posicion].Ahorro;
     document.getElementsByClassName("resultado3").innerHTML = num3 * num4;
     
 }
@@ -108,10 +109,9 @@ function resultado(){
     gastoPromedio();
     ahorroOrmiggaD();
     ahorroOrmiggaM();
-    
 }
 
-$("#action2").click(function(){
-    resultado();
-    alert(data[1].Categoría)
-  });
+$("#action2").on("click", function(){
+    //$(".resultado3").show("ahorroOrmigaM");
+    alert(data [posicion].Categoría)
+});
