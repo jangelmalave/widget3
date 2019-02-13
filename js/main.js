@@ -1,82 +1,82 @@
 data = [
 	{
 		"Categoría": "Merchandising",
-		"Ahorro": 0.1,
+		"Ahorro": 0.17,
 		"Tiempo": 1
 	},
 	{
 		"Categoría": "Material promocional",
-		"Ahorro": 0.1,
+		"Ahorro": 0.17,
 		"Tiempo": 1
 	},
 	{
 		"Categoría": "Material para punto de venta",
-		"Ahorro": 0.1,
+		"Ahorro": 0.17,
 		"Tiempo":1
 	},
 	{
 		"Categoría": "BTL / Activaciones",
-		"Ahorro": 0.1,
+		"Ahorro": 0.17,
 		"Tiempo": 2
 	},
 	{
 		"Categoría": "Organización de Eventos",
-		"Ahorro": 0.1,
+		"Ahorro": 0.17,
 		"Tiempo": 3
 	},
 	{
 		"Categoría": "Impresiones",
-		"Ahorro": 0.1,
+		"Ahorro": 0.17,
 		"Tiempo": 0.5
 	},
 	{
 		"Categoría": "Avisos/publicidad exterior",
-		"Ahorro": 0.1,
+		"Ahorro": 0.17,
 		"Tiempo": 1
 	},
 	{
 		"Categoría": "Agencias de publicidad / Digitales",
-		"Ahorro": 0.1,
+		"Ahorro": 0.17,
 		"Tiempo": 2
 	},
 	{
 		"Categoría": "Locaciones / salones de eventos",
-		"Ahorro": 0.05,
+		"Ahorro": 0.12,
 		"Tiempo": 2
 	},
 	{
 		"Categoría": "Catering",
-		"Ahorro": 0.05,
+		"Ahorro": 0.12,
 		"Tiempo": 1.5
 	},
 	{
 		"Categoría": "Transporte",
-		"Ahorro": 0.05,
+		"Ahorro": 0.12,
 		"Tiempo": 1
 	},
 	{
 		"Categoría": "Dotaciones",
-		"Ahorro": 0.05,
+		"Ahorro": 0.12,
 		"Tiempo": 2
 	},
 	{
 		"Categoría": "Papelería/material de oficina",
-		"Ahorro": 0.05,
+		"Ahorro": 0.12,
 		"Tiempo": 0.5
 	},
 	{
 		"Categoría": "Cartones y Empaques",
-		"Ahorro": 0.05,
+		"Ahorro": 0.12,
 		"Tiempo": 1
 	},
 	{
 		"Categoría": "Embalajes",
-		"Ahorro": 0.05,
+		"Ahorro": 0.12,
 		"Tiempo": 1
 	},
 	{
 		"Categoría": "Ferretería",
-		"Ahorro": 0.05,
+		"Ahorro": 0.12,
 		"Tiempo": 1
 	}
 ];
@@ -91,8 +91,8 @@ function muestra(option) {
 // Operaciones matemáticas
 function gastoPromedio(){
     num1 = document.getElementById("costo-pre").value;
-    num2 = data[posicion].Ahorro +1.2;
-    $('.resultado1').html("$ " +(num1 * num2) + " COP" )
+    
+    $('.resultado1').html("$ " +(num1 * 1.10) + " COP" )
     //document.getElementsByClassName("resultado1").innerHTML = num1 * num2;
 }
 function ahorroOrmiggaD(){

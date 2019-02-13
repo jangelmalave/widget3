@@ -1,82 +1,105 @@
 ﻿[
 	{
 		"Categoría": "Merchandising",
-		"Ahorro": 0.1,
-		"Tiempo": 1
+		"Ahorro": "0.17",
+		"TIEMPO SIN ORMIGGA": "2.5",
+		"TIEMPO CON ORMIGGA": "0.375"
 	},
 	{
 		"Categoría": "Material promocional",
-		"Ahorro": 0.1,
-		"Tiempo": 1
+		"Ahorro": "0.17",
+		"TIEMPO SIN ORMIGGA": "2.5",
+		"TIEMPO CON ORMIGGA": "0.375"
 	},
 	{
 		"Categoría": "Material para punto de venta",
-		"Ahorro": 0.1,
-		"Tiempo": 1
+		"Ahorro": "0.17",
+		"TIEMPO SIN ORMIGGA": "3",
+		"TIEMPO CON ORMIGGA": "0.45"
 	},
 	{
 		"Categoría": "BTL / Activaciones",
-		"Ahorro": 0.1,
-		"Tiempo": 2
+		"Ahorro": "0.17",
+		"TIEMPO SIN ORMIGGA": "8",
+		"TIEMPO CON ORMIGGA": "1.2"
 	},
 	{
 		"Categoría": "Organización de Eventos",
-		"Ahorro": 0.1,
-		"Tiempo": 3
+		"Ahorro": "0.17",
+		"TIEMPO SIN ORMIGGA": "9",
+		"TIEMPO CON ORMIGGA": "1.35"
 	},
 	{
 		"Categoría": "Impresiones",
-		"Ahorro": 0.1,
-		"Tiempo": 0.5
+		"Ahorro": "0.17",
+		"TIEMPO SIN ORMIGGA": "2",
+		"TIEMPO CON ORMIGGA": "0.3"
 	},
 	{
 		"Categoría": "Avisos/publicidad exterior",
-		"Ahorro": 0.1,
-		"Tiempo": 1
+		"Ahorro": "0.17",
+		"TIEMPO SIN ORMIGGA": "4",
+		"TIEMPO CON ORMIGGA": "0.6"
 	},
 	{
 		"Categoría": "Agencias de publicidad / Digitales",
-		"Ahorro": 0.1,
-		"Tiempo": 2
+		"Ahorro": "0.17",
+		"TIEMPO SIN ORMIGGA": "9",
+		"TIEMPO CON ORMIGGA": "1.35"
 	},
 	{
 		"Categoría": "Locaciones / salones de eventos",
-		"Ahorro": 0.05,
-		"Tiempo": 2
+		"Ahorro": "0.12",
+		"TIEMPO SIN ORMIGGA": "5",
+		"TIEMPO CON ORMIGGA": "0.75"
 	},
 	{
 		"Categoría": "Catering",
-		"Ahorro": 0.05,
-		"Tiempo": 1.5
+		"Ahorro": "0.12",
+		"TIEMPO SIN ORMIGGA": "5",
+		"TIEMPO CON ORMIGGA": "0.75"
 	},
 	{
 		"Categoría": "Transporte",
-		"Ahorro": 0.05,
-		"Tiempo": 1
+		"Ahorro": "0.12",
+		"TIEMPO SIN ORMIGGA": "3",
+		"TIEMPO CON ORMIGGA": "0.45"
 	},
 	{
 		"Categoría": "Dotaciones",
-		"Ahorro": 0.05,
-		"Tiempo": 2
+		"Ahorro": "0.12",
+		"TIEMPO SIN ORMIGGA": "10",
+		"TIEMPO CON ORMIGGA": "1.5"
 	},
 	{
 		"Categoría": "Papelería/material de oficina",
-		"Ahorro": 0.05,
-		"Tiempo": 0.5
+		"Ahorro": "0.12",
+		"TIEMPO SIN ORMIGGA": "2",
+		"TIEMPO CON ORMIGGA": "0.3"
 	},
 	{
 		"Categoría": "Cartones y Empaques",
-		"Ahorro": 0.05,
-		"Tiempo": 1
+		"Ahorro": "0.12",
+		"TIEMPO SIN ORMIGGA": "6",
+		"TIEMPO CON ORMIGGA": "0.9"
 	},
 	{
 		"Categoría": "Embalajes",
-		"Ahorro": 0.05,
-		"Tiempo": 1
+		"Ahorro": "0.12",
+		"TIEMPO SIN ORMIGGA": "7",
+		"TIEMPO CON ORMIGGA": "1.05"
 	},
 	{
 		"Categoría": "Ferretería",
-		"Ahorro": 0.05,
-		"Tiempo": 1
-	}
+		"Ahorro": "0.12",
+		"TIEMPO SIN ORMIGGA": "3",
+		"TIEMPO CON ORMIGGA": "0.45"
+	},
+	{
+		"Categoría": "",
+		"Ahorro": "",
+		"TIEMPO SIN ORMIGGA": "",
+		"TIEMPO CON ORMIGGA": ""
+	},
+
 ]
